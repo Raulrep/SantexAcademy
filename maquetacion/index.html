@@ -13,12 +13,27 @@
             margin-right: 40px;
         }
         h1 {
-            margin: 0px 400px;
+            margin: 30px 330px;
             text-align: center;
+            font-family: sans-serif;
+            display: block;
+            
+        }
+        h2 {
+            display: block;
+            background-color: black;
+            
         }
         button.redondo {
             background-color: white;
-            border: 1px solid black;
+            border: 2px solid black;
+            border-radius: 25px;
+            padding: 0px 20px;
+            height: 32px;
+        }
+        button.redondo2 {
+            background-color: white;
+            border: 2px solid rgb(137, 69, 247);
             border-radius: 25px;
             padding: 0px 20px;
             height: 32px;
@@ -30,7 +45,7 @@
     </style>
 </head>
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
+    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 15px 100px; justify-content: space-between">
         <div id="header-left">
             <img src="logo.svg">
         </div>
@@ -43,14 +58,17 @@
             <button class="redondo">Sumate +</button>
         </div>
     </div>
-    <div id="introduction" style="padding: 48px;">
+    <div id="introduction" style="padding: 70px 25px;">
         <div id="introduction-text">
             <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
         <div id="introduction-actions" style="margin-top: 25px;">
             <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+            <button class="redondo2" style="margin-left: 14px;color: rgb(137, 69, 247);">Sumate +</button>
         </div>
+    </div>
+    <div id="separacion negra" style="padding-block: 0px 400px; background-color: black;">
+        <h2> </h2> 
     </div>
 </body>
 </html>
