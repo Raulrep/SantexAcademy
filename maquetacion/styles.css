@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family:'Inter', sans-serif;
+    font-size: 16px;
+}
+p {
+    margin-right: 3em;
+}
+h1 {
+    margin: 30px 330px;
+    text-align: center;
+    display: block;
+    letter-spacing: -0.4px;
+    font-size: 2em;
+    font-weight: 600;
+}
+h2 {
+    display: block;
+    background-color: black;
+    
+}
+button.redondo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0px 1.5em;
+    height: 2em;
+}
+button.redondo2 {
+    background-color: white;
+    border: 2px solid rgb(107, 83, 240);
+    border-radius: 25px;
+    padding: 0px 1.5em;
+    height: 2em;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+@media (width >=2000px) {
+    body; { 
+        font-size: 20px;
+    }
+}
+@media (width >=4000px) {
+    body; { 
+        font-size: 30px;
+    }
+}
+.separacion-negra {
+    position: sticky;
+    top: 10px;
+}
